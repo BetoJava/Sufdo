@@ -1,0 +1,5 @@
+# Usage: pip install -r requirements.txt
+
+# Base ----------------------------------------
+numpy>=1.18.5
+pygame>=2.3.0
