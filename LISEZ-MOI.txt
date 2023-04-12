@@ -1,0 +1,37 @@
+Pour y jouer il te faut télécharger python et pygame :
+
+	- Pour python : https://www.python.org/downloads/release/python-392/
+	  sur le site tu télécharge le "Windows installer (64-bit)" (dernier normalement)
+
+	- Pour pygame tu fait : "cmd" dans la barre de recherche
+	  puis tu met : py -m pip install -U pygame --user
+	  puis pour tester si ça a téléchargé : py -m pygame.examples.aliens
+	- py -m pip install numpy
+
+	# Les autres librairies suivantes n'ont pas besoin d'êtres téléchargées (ça sera pour les versions suivantes du jeu) #
+	- pip install pandas
+	- pip install openpyxl xlsxwriter xlrd
+
+
+
+Après ça, ça devrait être bon.
+Ensuite il te suffit d'ouvrir main.py (dans ce dossier) : ça t'ouvrera la console (utile pour certaines info dans le jeu) et la fenêtre de jeu.
+
+	***
+
+Quelques infos :
+
+- Les classes disponibles pour l'instant sont : Chat/Cerf/Dragon/Poulpe et Monstre (qui est une IA pas encore finie)
+
+ - appuyer sur la TimeLine cache/montre les perso de la timeline
+
+ - les raccourcis sont :
+	- F1 pour passer
+	- F2 pour gagner 5PA
+	- F3 : 5PM
+	- F4 : 100 Pui
+	- F5 : 1PO
+	- F6 : 100PV
+	- F7 : 50 DMG
+	- &,é,",',(,-,è,_,ç,à pour les différents sorts dans l'ordre
+
